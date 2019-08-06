@@ -27,7 +27,7 @@ def apply_coupons(cart, coupons)
     if cart.keys.include?(item_name) && cart[item_name][:count] >= coupon[:num]
       if result[item_name+" W/COUPON"].nil?
         result[item_name+" W/COUPON"] = {
-          :price => (coupon[:cost] / coupo[:num]),
+          :price => (coupon[:cost] / coupon[:num]),
           :clearance => cart[item_name][:clearance],
           :count => coupon[:num]
         }
