@@ -54,7 +54,7 @@ def checkout(cart, coupons)
   clearanced_cart = apply_clearance(couponed_cart)
   total = 0
   clearanced_cart.each do |item, details|
-    item_total = (details[:price]*details[:count]).round(2)
+    item_total = (details[:price] * details[:count]).round(2)
     total += item_total
     binding.pry 
   end 
