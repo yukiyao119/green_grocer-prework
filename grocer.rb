@@ -48,11 +48,11 @@ def apply_clearance(cart)
   
 end
 
-new cart {
-  "PEANUT BUTTER" => {:price => 2.40, :clearance => true,  :count => 2},
-  "KALE"         => {:price => 3.00, :clearance => false, :count => 3}
-  "SOY MILK"     => {:price => 3.60, :clearance => true,  :count => 1}
-}
+# new cart {
+#   "PEANUT BUTTER" => {:price => 2.40, :clearance => true,  :count => 2},
+#   "KALE"         => {:price => 3.00, :clearance => false, :count => 3}
+#   "SOY MILK"     => {:price => 3.60, :clearance => true,  :count => 1}
+# }
 
 def checkout(cart, coupons)
   # code here
