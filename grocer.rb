@@ -37,11 +37,6 @@ def apply_coupons(cart, coupons)
   # binding.pry
 end
 
-# result{
-#   "AVOCADO" => {:price => 3.00, :clearance => true, :count => 1},
-#   "AVOCADO W/COUPON" => {:price => 2.50, :clearance => true, :count => 2},
-# }
-
 def apply_clearance(cart)
   # code here
 end
