@@ -49,7 +49,6 @@ def apply_clearance(cart)
 end
 
 def checkout(cart, coupons)
-  # [{"BEETS"=>{:price=>2.5, :clearance=>false, :count=>1}}] 
   new_cart = consolidate_cart(cart)
   couponed_cart = apply_coupons(new_cart, coupons)
   clearanced_cart = apply_clearance(couponed_cart)
