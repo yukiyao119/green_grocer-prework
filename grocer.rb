@@ -50,7 +50,7 @@ end
 
 def checkout(cart, coupons)
   # [{"BEETS"=>{:price=>2.5, :clearance=>false, :count=>1}}] 
-  consolidate_cart(cart)
+  new_cart = consolidate_cart(cart)
   
   # binding.pry
 end
