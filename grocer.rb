@@ -55,11 +55,10 @@ def checkout(cart, coupons)
   total = 0
   # binding.pry
   clearanced_cart.each do |item, details|
-      binding.pry 
-      item_total = (details[:price]*details[:count]).round(2)
-      total += item_total
-      binding.pry 
-    end
+    binding.pry 
+    item_total = (details[:price]*details[:count]).round(2)
+    total += item_total
+    binding.pry 
   end 
   total
   total > 100 ? (total*=0.9).round(2) : total
