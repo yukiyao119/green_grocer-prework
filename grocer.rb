@@ -49,6 +49,6 @@ def apply_clearance(cart)
 end
 
 def checkout(cart, coupons)
-  # code here
+  # [{"BEETS"=>{:price=>2.5, :clearance=>false, :count=>1}}] 
   binding.pry
 end
