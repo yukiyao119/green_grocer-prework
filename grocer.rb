@@ -15,11 +15,6 @@ def consolidate_cart(cart)
   # binding.pry
 end
 
-# cart {
-#   "AVOCADO" => {:price => 3.00, :clearance => true, :count => 3}
-# }
-# coupons [{:item => "AVOCADO", :num => 2, :cost => 5.00}]
-
 def apply_coupons(cart, coupons)
   result = cart
   coupons.each do |coupon|
